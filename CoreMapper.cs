@@ -14,7 +14,7 @@ namespace GordonApplepie.NetCoreMapper
 
             foreach (PropertyInfo p in obj.GetType().GetProperties())
             {
-                var property = properties.Find(x => x.Name == p.Name);
+                var property = properties.Find(x => x.Name.ToLower() == p.Name.ToLower());
                 if (property != null)
                     property.SetValue(variable, p.GetValue(obj));
 
@@ -29,7 +29,7 @@ namespace GordonApplepie.NetCoreMapper
 
             foreach (PropertyInfo p in obj.GetType().GetProperties())
             {
-                var property = properties.Find(x => x.Name == p.Name);
+                var property = properties.Find(x => x.Name.ToLower() == p.Name.ToLower());
                 if (property != null)
                     property.SetValue(objToMap, p.GetValue(obj));
 

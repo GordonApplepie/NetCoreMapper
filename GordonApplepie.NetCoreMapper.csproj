@@ -3,6 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <AssemblyName>NetCoreMapper</AssemblyName>
+    <Authors>GordonApplepie</Authors>
+    <Company />
+    <Description>Use this reflection based object mapper on your net core projects</Description>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/GordonApplepie/NetCoreMapper/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/GordonApplepie/NetCoreMapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GordonApplepie/NetCoreMapper</RepositoryUrl>
+    <PackageTags>classlibrary automapper mapper netcoremapper dotnetcore</PackageTags>
+    <PackageReleaseNotes>added support for lowercase properties matching with uppercase properties</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
 </Project>
