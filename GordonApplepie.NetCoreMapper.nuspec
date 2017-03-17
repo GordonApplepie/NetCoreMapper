@@ -3,15 +3,14 @@
   <metadata>
     <id>GordonApplepie.NetCoreMapper</id>
     <version>$version$</version>
-    <title>$title$</title>
+    <title>NetCoreMapper</title>
     <authors>GordonApplepie</authors>
     <owners>GordonApplepie</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/GordonApplepie/NetCoreMapper/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/GordonApplepie/NetCoreMapper</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Use this reflection based object mapper on your net core projects</description>
+    <releaseNotes>First functional version of this mapper.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>classlibrary automapper mapper netcoremapper dotnetcore</tags>
   </metadata>
