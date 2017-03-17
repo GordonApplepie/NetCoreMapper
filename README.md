@@ -19,7 +19,7 @@ CoreMapper.Map(destination, source);
 
 #### Annotations
 
-If you do not use any annotations each property will be mapped by names.
+If you do not use any annotations each property will be mapped by its name.
 
 Use the MapOn attribute to specify the property names on which will be mapped
 ```csharp
