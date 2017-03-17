@@ -38,7 +38,7 @@ public class EntityOne {
   [NoMap()] // No mapping will be applied
   public string Id { get; set; }
   
-  [NoMap(typeOf(DestEntity1, DestEntity2))] // No mapping only for DestEntity1 and DestEntity2 
+  [NoMap(typeOf(DestEntity1), typeOf(DestEntity2))] // No mapping only for DestEntity1 and DestEntity2 
   public string Name { get; set; }
 }
 ```
@@ -49,7 +49,7 @@ public class EntityOne {
   
   public string Id { get; set; }
   
-  [OnlyMap(typeOf(DestEntity1, DestEntity2))] // Mapping only on DestEntity1 and DestEntity2 
+  [OnlyMap(typeOf(DestEntity1), typeOf(DestEntity2))] // Mapping only on DestEntity1 and DestEntity2 
   public string Name { get; set; }
 }
 ```
